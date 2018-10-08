@@ -6,5 +6,5 @@ import dagger.Module
 @Module
 interface MainModule {
     @Binds
-    fun provideView(activity: MainActivity): MainActivity
+    fun provideView(activity: MapsActivity): MapsActivity
 }
