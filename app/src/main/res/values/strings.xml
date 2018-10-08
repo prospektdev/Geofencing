@@ -2,4 +2,7 @@
     <string name="app_name">Geofencing</string>
     <string name="title_activity_maps">Map</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBGaY4AaRxDUF42ftUsLi5CSWPqcRBfoyA</string>
+    <string name="user_leave_area">User has left the area</string>
+    <string name="user_enter__area">User has entered the area</string>
+    <string name="find_me">Find me</string>
 </resources>

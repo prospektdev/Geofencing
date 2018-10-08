@@ -37,8 +37,7 @@ class LocationManager @Inject constructor(private val context: Context) : Locati
                     .checkLocationSettings(settings)
                     .addOnCompleteListener { task ->
                         try {
-                            val response =
-                                    task.getResult(ApiException::class.java)
+                            val response = task.getResult(ApiException::class.java)
                             if (response != null) {
                                 emitter.onSuccess(response)
                             }
